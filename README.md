@@ -6,6 +6,11 @@ Tutorial for generating B2MML V7 .net c# classes
    ([GitHub](https://github.com/mganss/XmlSchemaClassGenerator))
 2. Copy current release of B2MML V7 into folder `MESAInternational/B2MML-BatchML`.
    ([GitHub](https://github.com/MESAInternational/B2MML-BatchML))
+
+   `cd MESAInternational`
+
+   `git clone https://github.com/MESAInternational/B2MML-BatchML.git`
+   
 3. Execute `xscgen -nc -nf xscgen/B2MML-V7-AllSchemas.namespaceFile -o src/generated/B2MML-V7  MESAInternational/B2MML-BatchML/Schema/AllSchemas.xsd`
 
 Generated classes should appear in folder `src/generated/B2MML-V7`
